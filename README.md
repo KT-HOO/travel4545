@@ -474,7 +474,7 @@ https://dev.msaez.io/#/142835195/storming/travel
   <img width="70%" alt="image" src="https://github.com/user-attachments/assets/292f5c03-5c6b-46b1-b62a-74658961f969"><br/>
   <br/>
 
-- 각각의 서비스 별(bounded context) maven 빌드 후 jar 패키징파일 생성
+- 각각의 서비스 별(bounded context) maven 빌드 후 jar 패키징파일 생성<br/>
   <img width="70%" alt="image" src="https://github.com/user-attachments/assets/e4996ab2-6b49-4f02-b2f3-2fa342cd46a4">
   <img width="70%" alt="image" src="https://github.com/user-attachments/assets/4155affa-4b94-4b74-b4da-084481418636">
   ```
@@ -483,7 +483,28 @@ https://dev.msaez.io/#/142835195/storming/travel
   ```
   <br/>
   
-- 패키징한 jar 파일을 통한 docker image build 및 docker hub에 push
+- 패키징한 jar 파일을 통한 docker image build 및 docker hub에 push<br/>
+  <img width="70%" alt="image" src="https://github.com/user-attachments/assets/ec43afdc-b8e7-4f72-8527-253235f35751">
+  <img width="70%" alt="image" src="https://github.com/user-attachments/assets/ec7385cb-9adb-48f9-ba34-70f812f48d74">
+  <img width="70%" alt="image" src="https://github.com/user-attachments/assets/3a3f0480-b320-494b-af9e-805213b89f00">
+  ```
+  (main) $ docker login
+  (main) $ docker build -t gbgb45/follow:240912 .
+  (main) $ docker push gbgb45/follow:240912
+  ```
 
-- Kubernetes(K8S) 배포:
-  - Kubernetes를 활용하여 클러스터 환경에 마이크로서비스를 배포합니다. 특히 Azure Kubernetes Service(AKS) 또는 다른 클라우드 기반 Kubernetes 솔루션을 사용하여, 클러스터를 자동으로 확장하고 관리할 수 있는 설정을 적용합니다.
+- Helm 패키지를 통한 클러스터에 Event Store(kafka) 설치<br/>
+  <img width="70%" alt="image" src="https://github.com/user-attachments/assets/1e610341-c7ff-48f1-9507-070426163f66">
+  <img width="70%" alt="image" src="https://github.com/user-attachments/assets/da8d5252-42a8-4fa2-8af6-6494aedb4b1b">
+  <img width="70%" alt="image" src="https://github.com/user-attachments/assets/f2291260-be63-4306-a691-ea312873335e">
+  ```
+  (main) $ helm repo add bitnami https://charts.bitnami.com/bitnami
+  (main) $ helm repo update
+  (main) $ helm install my-kafka bitnami/kafka –verison 23.0.5
+  ```
+
+
+
+
+
+
