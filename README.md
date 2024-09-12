@@ -251,28 +251,28 @@ https://dev.msaez.io/#/142835195/storming/travel
 
    **1.1 Evnet 도출**    
    
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_01.png" width="500" height="400" />    
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_01.png" width="100%" height="400" />    
 
     - 여행계획 생성 및 공유 서비스에 적합한 이벤트 도출
     - 서비스에 적합하지 않은 이벤트 삭제
 
    **1.2 Actor 식별, Command 부착**    
    
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_02.png" width="500" height="400" />    
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_02.png" width="100%" height="400" />    
 
     - 서비스의 주요 액터로 'member' 식별
     - 각 서비스 영역에 해당하는 커맨드를 부착
     
    **1.3 Aggregate 으로 묶기**    
    
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_03.png" width="500" height="400" />  
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_03.png" width="100%" height="400" />  
 
     - 연관된 엔터티와 이벤트를 묶어 어그리게잇 형성
     - 총 5개(Member, Plan, Follow, Like, Notofication)의 어그리게잇 도출
 
    **1.4 Domain 서열 분리, Bounded Context로 묶기**    
    
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_04.png" width="500" height="400" />  
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_04.png" width="100%" height="400" />  
   
 (1) Core Domain: 비즈니스의 핵심 가치를 제공하는 영역      
   - member    
@@ -306,7 +306,7 @@ https://dev.msaez.io/#/142835195/storming/travel
    
    **1.5 Policy, Read Model 부착 및 컨택스트 매핑 (점선은 Pub/Sub, 실선은 Req/Resp)**     
    
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_05.png" width="500" height="400" />
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_05.png" width="100%" height="400" />
 
     - 비즈니스 처리 로직에 따라 폴리시를 배치
     - 통신은 이벤트 기반의 비동기 방식(Pub/Sub)으로 설계
@@ -314,7 +314,7 @@ https://dev.msaez.io/#/142835195/storming/travel
 
    **1.6 완성된 1차 모형에 대한 기능적 요구사항 검증**
 
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_06.png" width="500" height="400" />
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_06.png" width="100%" height="400" />
 
     - 사용자는 구글 또는 네이버 계정을 통해 회원가입 및 로그인이 가능해야 한다. 🆗
     - 사용자는 충전/결제 시스템을 통해 토큰을 획득할 수 있어야 한다. 🆗
@@ -341,7 +341,7 @@ https://dev.msaez.io/#/142835195/storming/travel
 
    **1.7 완성된 1차 모형에 대한 비기능적 요구사항 검증**
 
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_06.png" width="500" height="400" />
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_06.png" width="100%"/>
 
     - 사용자 토큰 사용, 여행 계획 생성/수정/삭제 등의 트랜잭션이 중단되지 않고 일관성을 유지해야 한다. 🆗
     - 분산 트랜잭션 처리 메커니즘을 통해 이를 보장한다. 🆗
@@ -360,7 +360,7 @@ https://dev.msaez.io/#/142835195/storming/travel
 
    **1.8 모형 수정 및 최종 모형 도출**    
    
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_05.png" width="500" height="400" />
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_05.png" width="100%"/>
 
     -  알림(Notification) 기능-팔로우 알림
       - 팔로우한 사용자가 계획을 생성할 경우, 팔로워에게 시스템에서 알림을 발송한다. ❌
@@ -370,7 +370,7 @@ https://dev.msaez.io/#/142835195/storming/travel
 <br/>
 
 ### 2. 헥사고날 아키텍처 다이어그램 도출
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_kafka.png" width="950" height="460" />
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_kafka.png" width="100%"/>
 
     - 각 서비스는 Kafka Publisher와 Kafka Listener를 통해 이벤트를 송신하고 수신 (느슨한 결합 및 확장성 확보)
     - 'Plan' 서비스는 Kafka 외에 REST 기반 통신을 사용하여 다른 시스템과 데이터를 주고 받음
