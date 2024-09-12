@@ -505,8 +505,8 @@ https://dev.msaez.io/#/142835195/storming/travel
   ```
   <br/>
 
-- 각각의 서비스 및 게이트웨이의 deployment.yaml, service.yaml파일을 통한 배포
-  <img width="280" alt="image" src="https://github.com/user-attachments/assets/b7cb17c6-44ae-49ab-a668-125d9708f5fb">
+- 각각의 서비스 및 게이트웨이의 deployment.yaml, service.yaml파일을 통한 배포<br/>
+  <img width="55%" alt="image" src="https://github.com/user-attachments/assets/b7cb17c6-44ae-49ab-a668-125d9708f5fb">
   <img width="70%" alt="image" src="https://github.com/user-attachments/assets/bf46bc28-031e-4fbb-98b3-9f866dd7faf2">
   <img width="70%" alt="image" src="https://github.com/user-attachments/assets/c7cd32fc-4c70-4696-a008-4f15b6679e30">
   ```
