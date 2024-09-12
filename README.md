@@ -1,5 +1,7 @@
 <div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/KT-HOO/KTravel/main/img/Ktravel.png" width="330" height="240" />
+  <img src="https://github.com/user-attachments/assets/5d36a09e-6e2f-4bec-a655-08ceeff28d9b" width="330" height="240" />
+  ![image](https://github.com/user-attachments/assets/5d36a09e-6e2f-4bec-a655-08ceeff28d9b)
+
 </div>
 
 
