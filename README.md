@@ -251,28 +251,28 @@ https://dev.msaez.io/#/142835195/storming/travel
 
    **1.1 Evnet 도출**    
    
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_01.png" width="100%" height="400" />    
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_01.png" width="100%"/>    
 
     - 여행계획 생성 및 공유 서비스에 적합한 이벤트 도출
     - 서비스에 적합하지 않은 이벤트 삭제
 
    **1.2 Actor 식별, Command 부착**    
    
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_02.png" width="100%" height="400" />    
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_02.png" width="100%"/>    
 
     - 서비스의 주요 액터로 'member' 식별
     - 각 서비스 영역에 해당하는 커맨드를 부착
     
    **1.3 Aggregate 으로 묶기**    
    
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_03.png" width="100%" height="400" />  
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_03.png" width="100%"/>  
 
     - 연관된 엔터티와 이벤트를 묶어 어그리게잇 형성
     - 총 5개(Member, Plan, Follow, Like, Notofication)의 어그리게잇 도출
 
    **1.4 Domain 서열 분리, Bounded Context로 묶기**    
    
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_04.png" width="100%" height="400" />  
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_04.png" width="100%"/>  
   
 (1) Core Domain: 비즈니스의 핵심 가치를 제공하는 영역      
   - member    
@@ -306,7 +306,7 @@ https://dev.msaez.io/#/142835195/storming/travel
    
    **1.5 Policy, Read Model 부착 및 컨택스트 매핑 (점선은 Pub/Sub, 실선은 Req/Resp)**     
    
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_05.png" width="100%" height="400" />
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_05.png" width="100%"/>
 
     - 비즈니스 처리 로직에 따라 폴리시를 배치
     - 통신은 이벤트 기반의 비동기 방식(Pub/Sub)으로 설계
@@ -314,7 +314,7 @@ https://dev.msaez.io/#/142835195/storming/travel
 
    **1.6 완성된 1차 모형에 대한 기능적 요구사항 검증**
 
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_06.png" width="100%" height="400" />
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_06.png" width="100%"/>
 
     - 사용자는 구글 또는 네이버 계정을 통해 회원가입 및 로그인이 가능해야 한다. 🆗
     - 사용자는 충전/결제 시스템을 통해 토큰을 획득할 수 있어야 한다. 🆗
