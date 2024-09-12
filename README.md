@@ -251,7 +251,7 @@ https://dev.msaez.io/#/142835195/storming/travel
 
    **1.1 Evnet 도출**    
    
-<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_01.png" width="100%"/>    
+<img src="https://github.com/KT-HOO/KTravel/blob/main/img/0911_01.png" width="80%"/>    
 
     - 여행계획 생성 및 공유 서비스에 적합한 이벤트 도출
     - 서비스에 적합하지 않은 이벤트 삭제
