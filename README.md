@@ -471,6 +471,8 @@ https://dev.msaez.io/#/142835195/storming/travel
 - Azure 리소스 그룹 및 AKS(Azure Kubernetes Service) 클러스터 생성
 
   <img width="454" alt="image" src="https://github.com/user-attachments/assets/248daa26-093c-4e3f-9e66-491a66a458e5">
+  <img width="454" alt="image" src="https://github.com/user-attachments/assets/7c1f886d-fb3b-47d2-bc7b-9c17c68ba96f">
+  <img width="454" alt="image" src="https://github.com/user-attachments/assets/292f5c03-5c6b-46b1-b62a-74658961f969">
 
 
 - Docker Hub 배포:
