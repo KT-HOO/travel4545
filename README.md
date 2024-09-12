@@ -469,9 +469,9 @@ https://dev.msaez.io/#/142835195/storming/travel
 ## VI. 클라우드(Azure) 배포
 
 - Azure 리소스 그룹 및 AKS(Azure Kubernetes Service) 클러스터 생성<br/>
-  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/248daa26-093c-4e3f-9e66-491a66a458e5"><br/>
-  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/7c1f886d-fb3b-47d2-bc7b-9c17c68ba96f"><br/>
-  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/292f5c03-5c6b-46b1-b62a-74658961f969"><br/>
+  <img width="70%" alt="image" src="https://github.com/user-attachments/assets/248daa26-093c-4e3f-9e66-491a66a458e5"><br/>
+  <img width="70%" alt="image" src="https://github.com/user-attachments/assets/7c1f886d-fb3b-47d2-bc7b-9c17c68ba96f"><br/>
+  <img width="70%" alt="image" src="https://github.com/user-attachments/assets/292f5c03-5c6b-46b1-b62a-74658961f969"><br/>
   
 
 - Docker Hub 배포:
