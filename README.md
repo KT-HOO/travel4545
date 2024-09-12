@@ -468,15 +468,11 @@ https://dev.msaez.io/#/142835195/storming/travel
   
 ## VI. 클라우드(Azure) 배포
 
-- Azure 리소스 그룹 및 AKS(Azure Kubernetes Service) 클러스터 생성 ![image](https://github.com/user-attachments/assets/93f6533f-38cf-4f35-bef2-142158b5252e)
+- Azure 리소스 그룹 및 AKS(Azure Kubernetes Service) 클러스터 생성
+  <img width="454" alt="image" src="https://github.com/user-attachments/assets/248daa26-093c-4e3f-9e66-491a66a458e5">
 
-  - 각 마이크로서비스는 Docker 컨테이너로 패키징되어야 합니다. Docker 이미지는 최소화된 사이즈로 최적화되도록 관리합니다(예: 멀티 스테이지 빌드를 사용하여 불필요한 파일을 제거).
+
 - Docker Hub 배포:
   - 생성한 Docker 이미지를 Docker Hub에 배포하여, 이를 Kubernetes나 다른 클라우드 플랫폼에서 사용할 수 있도록 준비합니다.
 - Kubernetes(K8S) 배포:
   - Kubernetes를 활용하여 클러스터 환경에 마이크로서비스를 배포합니다. 특히 Azure Kubernetes Service(AKS) 또는 다른 클라우드 기반 Kubernetes 솔루션을 사용하여, 클러스터를 자동으로 확장하고 관리할 수 있는 설정을 적용합니다.
-
-### 1.      
-   **2.1 여행 계획 생성**  
-   - 
-   
