@@ -492,6 +492,7 @@ https://dev.msaez.io/#/142835195/storming/travel
   (main) $ docker build -t gbgb45/follow:240912 .
   (main) $ docker push gbgb45/follow:240912
   ```
+  <br/>
 
 - Helm 패키지를 통한 클러스터에 Event Store(kafka) 설치<br/>
   <img width="70%" alt="image" src="https://github.com/user-attachments/assets/1e610341-c7ff-48f1-9507-070426163f66">
@@ -502,6 +503,7 @@ https://dev.msaez.io/#/142835195/storming/travel
   (main) $ helm repo update
   (main) $ helm install my-kafka bitnami/kafka –verison 23.0.5
   ```
+  <br/>
 
 
 
