@@ -481,7 +481,9 @@ https://dev.msaez.io/#/142835195/storming/travel
   (main) $ cd follow
   (main) $ mvn package -B -Dmaven.test.skip=true
   ```
+  <br/>
+  
+- 패키징한 jar 파일을 통한 docker image build 및 docker hub에 push
 
-  - 생성한 Docker 이미지를 Docker Hub에 배포하여, 이를 Kubernetes나 다른 클라우드 플랫폼에서 사용할 수 있도록 준비합니다.
 - Kubernetes(K8S) 배포:
   - Kubernetes를 활용하여 클러스터 환경에 마이크로서비스를 배포합니다. 특히 Azure Kubernetes Service(AKS) 또는 다른 클라우드 기반 Kubernetes 솔루션을 사용하여, 클러스터를 자동으로 확장하고 관리할 수 있는 설정을 적용합니다.
